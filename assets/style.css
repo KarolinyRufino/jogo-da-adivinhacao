@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+:root {
+    font-size: 62.5%;
+    --font-1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+    font-size: 1.6rem;   
+
+    display: grid;
+    place-items: center; /* centraliza o item filho do body */
+    height: 100vh;
+}
+button{
+    background-color: #7879f1;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+    transition: background .3s;
+}
+button:hover{
+    background-color: #6363ce;
+}
+.hide {
+    display: none;
+}
+main{
+    width: min(42.8rem, 90%);
+    margin-top: -10rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    text-align: center;
+}
+body, input, button {
+    font-family: var(--font-1);
+}
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+h2, p{
+ color: #343558;   
+}
+input, button {
+    padding: 1.6rem;
+}
+input{
+    background-color: #dce2e9;
+    width: 6rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+.screen2 button{
+    border-radius: .4rem;
+}
